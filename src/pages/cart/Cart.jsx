@@ -8,7 +8,7 @@ const Cart = () => {
   return (
     <div className="cart" style={{ margin: "10px" }}>
       <div className="cart-title">
-        <h3>Your Cart Items</h3>
+        <h3>Your Cart Items [Updated]</h3>
       </div>
       <div className="cart-list d-flex flex-wrap gap-2">
         {cartItems.map((item) => {
